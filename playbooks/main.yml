@@ -10,3 +10,4 @@
     apt:
       name: "apache2"
       state: present
+  - names

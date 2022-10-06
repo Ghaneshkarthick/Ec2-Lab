@@ -16,9 +16,9 @@ data "aws_vpc" "ansible_server_vpc" {
     values = ["lab_vpc"]
   }
 }
-data "aws_subnet" "public" {
+data "aws_subnet" "public_a" {
     filter {
     name   = "tag:Name"
-    values = ["Public_Subnet"]
+    values = ["Public_a"]
   }
 }
